@@ -15,3 +15,12 @@ Subindo kafka
 ```
 ./bin/kafka-server-start.sh config/server.properties 
 ```
+
+## Criando topics manualmente
+```
+bin/kafka-topics.sh --create \
+  --zookeeper localhost:2181 \
+  --replication-factor 1 --partitions 1 \
+  --topic mytopic
+
+```
