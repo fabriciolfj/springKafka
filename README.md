@@ -5,7 +5,7 @@
 O arquivo kafka/config/zookeeper.properties, linha dataDir= colocar aonde ficarão os logs.
 O arquivo kafka/config/server.properties, log.dirs= colocar o diretório onde ficarão os logs.
 
-## Inicilização
+## Inicialização
 
 Subindo zookeeper:
 ```
