@@ -85,3 +85,4 @@ spring:
 - e os produtos registrados com id antigo, são finalizados e suas mensagens não serão entregues.
 - uma forma de controlar produtos registrados no coordenador defazados
 - um produto que ocorre quando temos as aplicações rodando em um k8s
+  
